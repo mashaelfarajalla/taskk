@@ -318,9 +318,18 @@ footer ul li a {
 }
 
 @media screen and (min-width: 992px) {
+
+    #v-pills-tab {
+        flex-direction: column;
+    }
+
     .btnsubmit {
         right: 79px;
         position: absolute;
+    }
+
+    .divcountainer {
+        justify-content: space-between;
     }
 }
 
@@ -330,9 +339,29 @@ footer ul li a {
         position: absolute;
         bottom: 26px;
     }
+
+    #v-pills-tab {
+        justify-content: end;
+        flex-direction: row;
+        order: -1;
+    }
+
+    .divcountainer {
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    #v-pills-tab {
+        flex-direction: column;
+        /* order: -1; */
+        /* justify-content: end; */
+    }
+
+    .divcountainer {
+        justify-content: space-evenly;
+    }
+
     .btnsubmit {
         right: 113px;
         position: absolute;

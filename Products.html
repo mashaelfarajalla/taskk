@@ -21,7 +21,7 @@
 
   <!--Header Start -->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <a class="navbar-brand" href="#">ONLINE <span>SHOP</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -51,10 +51,10 @@
   <!--Header end -->
 
   <!--Section1 Start -->
-  <div class="products1">
-    <div class="container">
-      <div class=" row">
-        <div class="col-4">
+  <div class="products1 my-5">
+    <div class="container mt-5">
+      <div class=" row  justify-content-evenly">
+        <div class="col-lg-4 col-md-6 mt-5">
           <img src="/assets/images/image1.jpg" class="img-fluid">
           <div class="d-flex mt-5 align-items-center">
             <span>Share</span>
@@ -80,22 +80,23 @@
             </div>
           </div>
         </div>
-        <div class="nav flex-column nav-pills me-3 col-1" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home"
-            type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><img
-              src="/assets/images/image1.jpg"></button>
-          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+        <div class="nav  nav-pills me-3 col-md-3 col-lg-1 my-lg-5" id="v-pills-tab" role="tablist"
+          aria-orientation="vertical">
+          <button class="nav-link active my-4" id="v-pills-home-tab" data-bs-toggle="pill"
+            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+            aria-selected="true"><img src="/assets/images/image1.jpg"></button>
+          <button class="nav-link my-4" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
             type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><img
               src="/assets/images/image2.jpg"></button>
-          <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages"
-            type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><img
-              src="/assets/images/image3.jpg"></button>
-          <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings"
-            type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><img
-              src="/assets/images/image4.jpg"></button>
+          <button class="nav-link my-4" id="v-pills-messages-tab" data-bs-toggle="pill"
+            data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+            aria-selected="false"><img src="/assets/images/image3.jpg"></button>
+          <button class="nav-link my-4" id="v-pills-settings-tab" data-bs-toggle="pill"
+            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+            aria-selected="false"><img src="/assets/images/image4.jpg"></button>
         </div>
 
-        <div class="tab-content col-5" id="v-pills-tabContent">
+        <div class="tab-content col-lg-5 mt-5" id="v-pills-tabContent">
           <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
             <p>SKU 12314124124</p>
             <h3>OMEN Monitor With High Quality In The World</h3>
@@ -161,7 +162,7 @@
 
             <hr class=" mt-4">
 
-            <div class="row justify-content-between">
+            <div class="row divcountainer  mt-2">
               <div class="col-auto countainer d-flex">
 
                 <button id="decrement" onclick="stepper(this)">-</button>
@@ -169,8 +170,8 @@
                 <button id="increment" onclick="stepper(this)">+</button>
               </div>
 
-              <div class="col-auto">
-                <div class="row ">
+              <div class="col-md-auto mt-2">
+                <div class="row justify-content-center">
                   <div class="col-auto" style="">
                     <button type="button" class="btn btn-outline-light" style="border-color: #FB2E86 !important
         ; color: #FB2E86 !important; ">BUY</button>
